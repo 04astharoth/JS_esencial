@@ -1,0 +1,33 @@
+#cabecera{
+    background: #95a5a6;
+    position: relative;
+    margin: 0 auto;
+    width: 35%;
+    height: 5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial;
+    color: #fff;
+    text-align: center;
+}
+
+#div{
+    background: #235196;
+    position: relative;
+    margin: 0 auto;
+    width: 35%;
+    height: 500px;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+}
+
+#accion_json{
+    border-radius: 5px;
+    background-color: #fff;
+    background-color: #bdc3c7;
+}
+
+

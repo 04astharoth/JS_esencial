@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html" charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <title>Estudiantes</title>
+</head>
+<body>
+    <div id="cabecera" align="center">
+        <h2>Resultados curso de desarrollo web</h2>
+    </div>
+    <div id="div" >
+    <input type="button" id="accion_json" value="Listar Estudiantes" onclick="leerJSON(estudiante)">
+    <input type="button" id="accion_json" value="Obtener Promedio" onclick="promedio(estudiante)">
+    <input type="button" id="accion_json" value="Notas Altas" onclick="maxNota(estudiante)">
+    <input type="button" id="accion_json" value="Notas Bajas" onclick="minNota(estudiante)">
+
+    <div id="reporte"><p id="estudiantes"></p></div>
+    <p id="promedio"></p>
+    <p id="notas_altas"></p>
+    <p id="notas_bajas"></p>
+    </div>
+</body>
+</html>
